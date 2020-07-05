@@ -1,22 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
- <metadata id="metadata90">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>Paper Symbolic Icon Theme</dc:title>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <title id="title8473">Paper Symbolic Icon Theme</title>
- <defs id="defs7386">
-  <filter id="filter7554" style="color-interpolation-filters:sRGB">
-   <feBlend id="feBlend7556" in2="BackgroundImage" mode="darken"/>
-  </filter>
- </defs>
- <g id="layer9" transform="translate(-525 395.01)">
-  <path id="path10637" style="color:#bebebe;text-indent:0;block-progression:tb;text-decoration-line:none;enable-background:accumulate;text-transform:none;fill:#555" d="m533-395-6 1.9902v7c0 2.0716 1.5749 3.5218 2.9375 4.4688 1.3626 0.94693 3.0625 1.541 3.0625 1.541s1.7043-0.61672 3.0625-1.5723c1.3582-0.95555 2.9375-2.3932 2.9375-4.4375v-7l-6-1.9902zm0 2.1074 4 1.3262v5.5566c0 1.0143-0.90506 1.9706-2.0879 2.8027-0.77536 0.54551-1.4322 0.77757-1.9238 0.98242-0.49007-0.19878-1.1373-0.42191-1.9102-0.95898-1.1698-0.813-2.0781-1.7682-2.0781-2.8262v-5.5566l4-1.3262z"/>
- </g>
+<svg enable-background="new" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#bebebe">
+    <path d="m8 2-4.8 1.59216v5.6c0 1.65728 1.25992 2.81744 2.35 3.57504 1.09008.757544 2.45 1.2328 2.45 1.2328s1.36344-.493376 2.45-1.25784c1.08656-.76444 2.35-1.91456 2.35-3.55v-5.6zm0 1.68592 3.2 1.06096v4.44528c0 .81144-.724048 1.57648-1.67032 2.24216-.620288.436408-1.14576.622056-1.53904.785936-.392056-.159024-.90984-.337528-1.52816-.767184-.93584-.6504-1.66248-1.41456-1.66248-2.26096v-4.44528l3.2-1.06096z" />
+    <path d="m8 3.68592 3.2 1.06096v4.44528c0 .81144-.724048 1.57648-1.67032 2.24216-.620288.436408-1.14576.622056-1.53904.785936-.392056-.159024-.90984-.337528-1.52816-.767184-.93584-.6504-1.66248-1.41456-1.66248-2.26096v-4.44528l3.2-1.06096z" opacity=".35" />
+  </g>
 </svg>

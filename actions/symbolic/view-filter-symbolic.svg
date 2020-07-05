@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#bebebe;
-      }
-      </style>
-  </defs>
- <path 
-       style="fill:currentColor;fill-opacity:1;stroke:none"
-	 class="ColorScheme-Text"
-        d="M 6 2 L 6 14 L 7 14 L 7 2 L 6 2 z M 2 3 L 2 4 L 4 4 L 4 3 L 2 3 z M 9 3 L 9 5 L 11 5 L 11 3 L 9 3 z M 13 3 L 13 5 L 15 5 L 15 3 L 13 3 z M 2 6 L 2 7 L 4 7 L 4 6 L 2 6 z M 9 7 L 9 9 L 11 9 L 11 7 L 9 7 z M 13 7 L 13 9 L 15 9 L 15 7 L 13 7 z M 2 9 L 2 10 L 4 10 L 4 9 L 2 9 z M 9 11 L 9 13 L 11 13 L 11 11 L 9 11 z M 13 11 L 13 13 L 15 13 L 15 11 L 13 11 z M 2 12 L 2 13 L 4 13 L 4 12 L 2 12 z "
-     />
-</svg>
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path d="m5.6923077 2.5v11h .9230769v-11zm-3.6923077.9166666v.9166668h1.8461538v-.9166668zm6.4615385 0v1.8333334h1.8461535v-1.8333334zm3.6923075 0v1.8333334h1.846154v-1.8333334zm-10.153846 2.7500001v.9166666h1.8461538v-.9166666zm6.4615385.9166666v1.8333334h1.8461535v-1.8333334zm3.6923075 0v1.8333334h1.846154v-1.8333334zm-10.153846 1.8333334v.9166663h1.8461538v-.9166663zm6.4615385 1.8333333v1.833333h1.8461535v-1.833333zm3.6923075 0v1.833333h1.846154v-1.833333zm-10.153846.916667v.916666h1.8461538v-.916666z" fill="#bebebe"/></svg>

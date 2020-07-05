@@ -1,24 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg id="svg7384" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" style="enable-background:new" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
- <metadata id="metadata90">
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title>Paper Symbolic Icon Theme</dc:title>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <title id="title8473">Paper Symbolic Icon Theme</title>
- <defs id="defs7386">
-  <filter id="filter7554" color-interpolation-filters="sRGB">
-   <feBlend id="feBlend7556" in2="BackgroundImage" mode="darken"/>
-  </filter>
- </defs>
- <g id="layer9" transform="translate(-367 211)">
-  <rect id="rect8038" style="color:#000000;enable-background:new;fill:#555" rx="2" ry="2" transform="rotate(90)" width="4" y="-383" x="-205" height="4"/>
-  <rect id="rect8040" style="color:#000000;enable-background:new;fill:#555" rx="2" ry="2" transform="rotate(90)" width="4" y="-377" x="-205" height="4"/>
-  <rect id="rect8042" style="color:#000000;enable-background:new;fill:#555" rx="2" ry="2" transform="rotate(90)" width="4" y="-371" x="-205" height="4"/>
- </g>
+<svg enable-background="new" height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <path d="m-39.693359 3.7988281c-.808153 0-1.576776.1600842-2.314453.4765625-1.465323.6284959-2.538343 1.6944308-3.167969 3.1621094-.315505.7353002-.46875 1.5043476-.46875 2.3125 0 .808308.153245 1.584856.46875 2.320312.629626 1.467679 1.702782 2.539318 3.167969 3.167969.737813.316479 1.50628.476563 2.314453.476563.808172 0 1.581934-.16176 2.320312-.476563 1.477556-.63019 2.545176-1.702783 3.173828-3.167969.316459-.737813.476563-1.512004.476563-2.320312 0-.8081524-.159948-1.5747064-.476563-2.3125-.628516-1.4653216-1.696272-2.5319383-3.173828-3.1621094-.738495-.3149589-1.512023-.4765625-2.320312-.4765625zm-.369141 2.1855469c.303946 0 .552734.2487877.552734.5527344v3.7851566l2.146485 1.677734c.248683.184221.285783.533954.101562.773438-.101326.138157-.267805.210937-.433593.210937-.119726 0-.238518-.04545-.339844-.119141l-2.367188-1.841796c-.128958-.101327-.21289-.258606-.21289-.433594v-4.0527346c0-.3039467.248788-.5527344.552734-.5527344z" fill="#bebebe" opacity=".99" transform="matrix(1.00704799335 0 0 1.0070479934 47.96327764889 -1.82557800879)" />
 </svg>

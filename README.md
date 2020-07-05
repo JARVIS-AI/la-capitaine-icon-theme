@@ -1,63 +1,117 @@
 ### What is this?
-La Capitaine is an icon pack, designed to integrate with most desktop environments. The set of icons takes inspiration from the latest iterations of macOS and Google's Material Design through the use of visually pleasing gradients, shadowing, and simple icon geometry.
+La Capitaine is an icon pack &mdash; designed to integrate with most
+desktop environments. The set of icons takes inspiration from the latest
+iterations of macOS and Google's Material Design through the use of
+visually pleasing gradients, shadowing, and simple icon geometry.
 
-Every image in this theme is a _scalable vector graphic_ so it will look great at any size, on any screen. In my spare time, I work on adding new icons, updating old ones, and making this theme more complete. Since this theme is updated often, you should clone this git repository and pull regularly to make sure you're always up-to-date:
+Every image in this theme is a _scalable vector graphic_ so it will look
+great at any size, on any screen. In my spare time, I work on adding new
+icons, updating old ones, and making this theme more complete. Since
+this theme is updated often, you should clone this git repository and
+pull regularly to make sure you're always up-to-date:
+
 ```
 cd ~/.icons
 git clone https://github.com/keeferrourke/la-capitaine-icon-theme.git
 ```
-Alternatively, there is an [AUR PKGBUILD](https://aur.archlinux.org/packages/la-capitaine-icon-theme-git) available, so if you're on Arch Linux, simply run:
+
+Alternatively, there are
+[AUR PKGBUILDs](https://aur.archlinux.org/packages/?K=la-capitaine-icon-theme)
+available, so if you're on Arch Linux, simply run:
+
 ```
-yaourt -S la-capitaine-icon-theme-git
+yay -S la-capitaine-icon-theme       # point releases
+yay -S la-capitaine-icon-theme-git   # git master branch
 ```
-and keep yourself on the _bleeding edge_ of this repo :smile:
+
+Fedora and EPEL users can also use a third party Copr repository :
+
+```
+sudo dnf copr enable tcg/themes
+sudo dnf install la-capitaine-icon-theme
+```
+<!--
+Ubuntu
+[PPA](https://launchpad.net/~dyatlov-igor/+archive/ubuntu/la-capitaine)
+(maintained by [@igor-dyatlov](https://github.com/igor-dyatlov)):
+
+```
+sudo add-apt-repository ppa:dyatlov-igor/la-capitaine
+sudo apt update
+sudo apt install la-capitaine-icon-theme
+```
+-->
 
 ### Configuration
-La Capitaine comes with a configuration script which attempts to determine your distribution and desktop environment. Using this information, La Capitaine updates several system icons and icons used for mime-types.
+La Capitaine comes with a configuration script which attempts to
+determine your distribution and desktop environment. Using this
+information, La Capitaine updates several system icons and icons used
+for mime-types.
 
-For best integration with your distro/desktop environment, please run `./configure` and follow the prompts.
+For best integration with your distro/desktop environment, please run
+`./configure` and follow the prompts.
+
+#### Use a dark GTK+ theme?
+La Capitaine doesn't ship with two distinct variants, because I wanted
+to keep the size of this project to a minimum.
+
+You'll need to run the configuration script to tell La Capitaine to
+update its directory structure to use the dark variant.
+
+### Troubleshooting
+If something does not work as expected with La Capitaine, take a look at
+[`SUPPORT`](.github/SUPPORT.md). There you'll find the most common
+traps, their solutions and known issues. Please read this doc before
+submitting an issue.
 
 ### License
-La Capitaine is a fork of the El General icon theme for the GNOME desktop with significant changes.
-El General is in turn a fork of the Numix-circle icon theme.
-As such, La Capitaine is a derivative work mostly licensed under the GPLv3.
+La Capitaine is fully free software that is dual-licensed under the MIT
+and GPLv3 licenses.
 
-The configuration script included here is written by me and licensed under the permissive MIT license.
+Much of the artwork in La Capitaine is based on Numix Circle and El
+General GNOME (now known as Antu), with significant additions and
+changes. This art is to be treated as a GPLv3 licensed library.
 
-See LICENSE and COPYING for more details.
+The included configuration script is licensed under the permissive MIT
+license.
+
+See the `LICENSE` and `COPYING` files for more details.
 
 ### Donations
-I'm a poor university computer science student, and I spend many hours per week working on this and other projects -- If you like this icon pack and want to support me, please consider donating via [Paypal](https://paypal.me/keeferrourke), [Patreon](https://www.patreon.com/krourke), or [Bitcoin](https://krourke.org/btc.html) :smile:
+I'm a poor university computer science student, and I spend many hours
+per week working on this and other projects &mdash; If you like this
+icon pack and want to support me, please consider donating via
+[Paypal](https://paypal.me/keeferrourke) or
+[Patreon](https://www.patreon.com/krourke) :smile:
 
-Check out `Thanks.md` to see a list of significant donors and contributors!
+If you want to contribute to this project but can't make a monetary
+donation, shoot me an email and we can sort something out.
 
-### Icon Requests
-If there's an icon that's missing in this project, feel free to [contact me](https://krourke.org/contact) or _open an issue_.
+Be sure to check out `Thanks.md` to see a list of significant donors and
+contributors!
 
-Please follow this format for requests:
-```
-Application: _name of application_
-Icon name: _name of icon_
-Context: _e.g. app, status, action, etc. (if known)_
-Icon reference:
-<attach image of original icon>
-```
-You should take a look at [request #58](https://github.com/keeferrourke/la-capitaine-icon-theme/issues/58) for a real example of the format I'm looking for. Following the requested format makes my life easier and guarantees that your request will be fulfilled faster :grin:
+### Icon Requests and Issues
+If there's an icon that's missing in this project, feel free to
+[contact me](https://krourke.org/contact) or _open an issue_.
 
-If your request is for a desktop application (it usually is), you can find the icon name in the application's `*.desktop` file located at `/usr/share/applications/yourapplication.desktop` or `$HOME/.local/share/applications/yourapplication.desktop`.
+To make my life easier and to ensure that your requests are fullfilled
+faster, I expect a particular format for any new issues. Please
+[read the wiki](https://github.com/keeferrourke/la-capitaine-icon-theme/wiki/Submitting-New-Issues)
+before opening an issue.
 
-If you find that an application icon is not themed, but an icon appears in this project with the wrong (or a different) file name as specified in your x-desktop file, please let me know and _open an issue_.
+Community contributions are always welcome. Feel free to fork this
+project and submit bug fixes, or to contribute new icons or icon
+revisions. See [submitting pull requests](https://github.com/keeferrourke/la-capitaine-icon-theme/wiki/Submitting-Pull-Requests)
+on the wiki.
 
 ### Roadmap
 To-do:
- * Change software store and management icons to something more original/generic
  * Add alternative file-browser icons (requested a few times)
- * Add alternative status, action and other 16x16 icons for dark GTK+ themes
-
-### Recommendations
-La Capitaine looks best with a theme based on either Material Design or macOS. Though I don't make GTK+ themes, some of my favourites are: [Flat-Plat](http://gnome-look.org/content/show.php/Flat-Plat?content=167704), [Adapta](https://github.com/tista500/Adapta), [Paper](https://snwh.org/paper/theme), [Arc](https://github.com/horst3180/arc-theme), and [Arc-OSX](http://gnome-look.org/content/show.php/Arc-OSX-themes?content=175536). Have fun, and happy theming!
+ * Add hardcode tray support
 
 ### Preview
-![La Capitaine preview](preview.svg.png)
+![La Capitaine preview](.product/preview.png)
 <!-- ![La Capitaine preview](https://cdn.rawgit.com/keeferrourke/la-capitaine-icon-theme/master/preview.svg) -->
 
+<small>The GTK theme in this preview is
+[X-Arc](https://gitlab.com/LinxGem33/X-Arc-White);</small>
